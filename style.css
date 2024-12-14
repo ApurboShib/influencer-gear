@@ -130,3 +130,30 @@ nav a {
     color: #666;
     font-size: 0.8rem;
 }
+
+/* featured section style */
+.featured {
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+.featured img {
+    width: 100%;
+    border-radius: 5px;
+}
+.featured-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.join-now {
+    scroll-padding-block-start: #e02c6d;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+
+}
