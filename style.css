@@ -36,3 +36,36 @@ nav a {
     text-decoration: none;
     color: #333;
 }
+/* hero part style*/
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding: 50px 0;
+    align-items: center;
+}
+.hero-content h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+}
+
+.hero-content p {
+    color: #666;
+    margin-bottom: 30px;
+
+}
+.preebook-btn {
+    background: #e02c6d;
+    color: white;
+    border-radius: 1.2rem;
+    padding: 12px 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+.hero-img{
+    max-width: 100%;
+    height: auto;
+}
