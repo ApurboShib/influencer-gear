@@ -69,3 +69,17 @@ nav a {
     max-width: 100%;
     height: auto;
 }
+/* partner section style*/
+
+.partner {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.partner img {
+    height: 30px;
+    object-fit: contain;
+}
